@@ -41,7 +41,7 @@ jobs:
           builder: ${{ steps.buildx.outputs.name }}
           push:    false
           load:    true
-          tags: arinkistia22:latest, docker-gs-ping:latest
+          tags: arinkistian:latest, docker-gs-ping:latest
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to:   type=local,dest=/tmp/.buildx-cache
 
