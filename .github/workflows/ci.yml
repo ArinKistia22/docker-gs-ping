@@ -41,7 +41,7 @@ jobs:
           builder: ${{ steps.buildx.outputs.name }}
           push:    false
           load:    true
-          tags: ArinKistia22:latest, ${{ github.repository }}:latest
+          tags: arinkistia22:latest, ${{ github.repository }}:latest
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to:   type=local,dest=/tmp/.buildx-cache
 
